@@ -12,9 +12,9 @@ const scenes = [
     scene: 1,
     title: "The Problem",
     visual:
-      "Clips of heavy traffic, overflowing hospital waiting rooms, people looking exhausted and frustrated checking their phones.",
+      "Overflowing hospital waiting rooms, long queues, exhausted patients waiting hours just for a basic liver test.",
     imageUrl:
-      "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80",
+      "https://images.unsplash.com/photo-1504813184591-01572f98c85f?w=800&q=80",
     reverse: false,
     dark: false,
   },
@@ -22,21 +22,21 @@ const scenes = [
     scene: 2,
     title: "The Solution",
     visual:
-      "Person relaxing at home on a comfortable sofa. Doorbell rings. A professional healthcare worker enters with a medical bag, smiling warmly.",
+      "Person relaxing at home. A professional gastroenterologist arrives at the door with a medical bag, smiling warmly.",
     voiceover: "Now your liver test can come to you.",
     imageUrl:
-      "https://images.unsplash.com/photo-1581056771107-24ca5f033842?w=800&q=80",
+      "https://images.unsplash.com/photo-1609188076864-c35269136b09?w=800&q=80",
     reverse: true,
     dark: true,
   },
   {
     scene: 3,
-    title: "Professional Equipment",
+    title: "Liver Ultrasound",
     visual:
-      "Close-up shots of advanced medical equipment being carefully unpacked. Gloves snapping on. A compact ultrasound-like machine being set up.",
+      "A certified specialist performs a painless liver ultrasound scan at your home — the same equipment used in top hospitals.",
     voiceover: "No hospital queues.",
     imageUrl:
-      "https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?w=800&q=80",
+      "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&q=80",
     reverse: false,
     dark: false,
   },
@@ -44,10 +44,10 @@ const scenes = [
     scene: 4,
     title: "Comfortable Experience",
     visual:
-      "Person sitting comfortably on their sofa, relaxed and smiling, while the healthcare worker gently performs a scan-like procedure.",
+      "Patient sits relaxed on their sofa while the specialist gently performs an abdominal scan — comfortable, quick, and stress-free.",
     voiceover: "No painful procedures.",
     imageUrl:
-      "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
+      "https://images.unsplash.com/photo-1666214280557-f1b5022eb634?w=800&q=80",
     reverse: true,
     dark: true,
   },
@@ -55,9 +55,9 @@ const scenes = [
     scene: 5,
     title: "For Everyone",
     visual:
-      "A happy elderly couple laughing together. A young professional working on a laptop. Someone casually drinking morning coffee at home.",
+      "Elderly patients, young professionals, busy parents — anyone who needs liver screening without leaving home.",
     voiceover: "Just fast, comfortable liver screening… from your home.",
-    imageUrl: "https://images.unsplash.com/photo-1542884748-2b87b36c6b90?w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?w=800&q=80",
     reverse: false,
     dark: false,
   },

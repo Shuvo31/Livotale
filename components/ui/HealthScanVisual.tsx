@@ -131,14 +131,14 @@ export function HealthScanVisual() {
         ))}
       </div>
 
-      {/* ECG line */}
+      {/* Liver health wave — smooth sine-like line, not ECG */}
       <div className="w-48 h-5 mt-4 opacity-30 overflow-hidden">
         <svg viewBox="0 0 200 20" className="w-full h-full" preserveAspectRatio="none">
           <motion.path
-            d="M0 10 L40 10 L50 10 L55 2 L60 18 L65 2 L70 10 L130 10 L135 2 L140 18 L145 2 L150 10 L200 10"
+            d="M0 10 Q25 2 50 10 Q75 18 100 10 Q125 2 150 10 Q175 18 200 10"
             stroke="#1EABB3" strokeWidth="1.5" fill="none" strokeDasharray="200"
             animate={{ strokeDashoffset: [200, 0] }}
-            transition={{ duration: 2.5, repeat: Infinity, ease: "linear" }}
+            transition={{ duration: 3, repeat: Infinity, ease: "linear" }}
           />
         </svg>
       </div>
